@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="10dp"
+    app:cardCornerRadius="20dp"
+    android:layout_margin="10dp"
+    app:cardBackgroundColor="@color/colorcardview"
+    app:cardMaxElevation="12dp"
+    app:cardPreventCornerOverlap="true"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:orientation="horizontal"
+        >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            >
+
+            <Button
+                android:id="@+id/image_checke_list"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/checktask" />
+
+            <Button
+                android:id="@+id/image_checked_list_active"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/checkedtask"
+                android:visibility="gone" />
+
+        </RelativeLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+                <View
+                    android:id="@+id/view_line_cancel"
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="105dp"
+                    android:visibility="gone"
+                    android:background="@android:color/black" />
+
+                <TextView
+                    android:id="@+id/txt_title_of_importance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20sp"
+                    android:textColor="@color/colortitle"
+                    android:text="TextView">
+
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/txt_description_of_importance"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colortitle"
+                    android:layout_below="@id/txt_title_of_importance"
+                    android:visibility="gone"
+                    android:textSize="15sp"
+                    android:text="TextView" />
+
+                <TextView
+                    android:id="@+id/txt_dateandday_of_importance"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@id/txt_description_of_importance"
+                    android:layout_marginTop="15dp"
+                    android:textColor="@color/colorbackground"
+                    android:text="Testing" />
+            </RelativeLayout>
+            </ScrollView>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:src="@drawable/star_mydaytask"
+            />
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

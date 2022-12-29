@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@color/colorbackground"
+    tools:context=".EditMyTasks">
+
+    <EditText
+        android:id="@+id/edtxt_edit_title_tasks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edittext_shape"
+        android:hint="@string/hint_edit_tasks"
+        android:maxLength="25"
+        android:padding="10dp"
+        android:textColor="@color/colorbackground"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+
+
+    <EditText
+        android:id="@+id/edtxt_edit_description_tasks"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edittext_shape"
+        android:hint="@string/edit_description_tasks"
+        android:inputType="text|textMultiLine"
+        android:padding="5dp"
+        android:textColor="@color/colorbackground"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_submit_tasks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colortoolbar"
+        android:text="@string/edit_submit"
+        android:layout_marginTop="100dp"
+        android:textColor="@color/colorbackground"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+
+
+</LinearLayout>

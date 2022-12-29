@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@color/colorbackground"
+    tools:context=".HomePage">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorbackground">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_myhomepage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colortoolbar"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:title="@string/app_name"
+        app:titleTextColor="@color/colortitle"
+        app:titleMarginStart="20dp">
+        <TextView
+            android:id="@+id/toolbar_change_language"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/choose_language"
+            android:background="@color/colortoolbar"
+            android:layout_marginStart="100dp"
+            android:textColor="@color/colortitle"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            />
+    </androidx.appcompat.widget.Toolbar>
+
+    <ImageView
+        android:id="@+id/image_homeapge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="50dp"
+        app:srcCompat="@drawable/homepageimage" />
+
+    <Button
+        android:id="@+id/btn_my_day"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/home_myday"
+        android:textSize="25sp"
+        android:textAllCaps="false"
+        android:textColor="@color/colorbackground"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:drawablePadding="-15dp"
+        android:drawableTop="@drawable/sun_my_daytasks"
+        android:background="@drawable/btn_home_background"
+        />
+
+    <Button
+        android:id="@+id/btn_important"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/home_myimportance"
+        android:textSize="25sp"
+        android:textAllCaps="false"
+        android:textColor="@color/colorbackground"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:drawablePadding="-15dp"
+        android:drawableTop="@drawable/star_mydaytask"
+        android:background="@drawable/btn_home_background"
+        />
+
+    <Button
+        android:id="@+id/btn_my_play"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/home_myplan"
+        android:textSize="25sp"
+        android:textAllCaps="false"
+        android:textColor="@color/colorbackground"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="10dp"
+        android:drawablePadding="-15dp"
+        android:drawableTop="@drawable/myplan_tasks_image"
+        android:background="@drawable/btn_home_background"
+        />
+
+   <TextView
+       android:id="@+id/txt_rate_feedback_us"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/feedback_us"
+       android:layout_marginTop="10dp"
+       android:gravity="center"
+       android:textColor="@color/colortoolbar"
+       android:fontFamily="cursive"
+       android:textSize="30sp"
+       />
+
+</LinearLayout>
+</ScrollView>

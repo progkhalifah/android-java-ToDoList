@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">My Tasks</string>
+    <string name="first_page">Easing To Write Your Tasks</string>
+    <string name="second_page">Reminder You For Important Tasks</string>
+    <string name="third_page">Giving You Notifications For Your Tasks</string>
+    <string name="followme">Follow Me on Social Media</string>
+    <string name="feedback_us">Would You Rate and Feedback Us</string>
+    <string name="your_opinion_matters">Your opinion matters to us</string>
+    <string name="weworkshard">We work super hard to serve you better and would  love to know you rate our app?</string>
+    <string name="mydaystasks">My Day</string>
+    <string name="myimportance">My Importance</string>
+    <string name="myplan">My Plan</string>
+    <string name="thisweidgetforquickly">My Tasks</string>
+    <string name="hint_edit_tasks">Edit Your Tasks</string>
+    <string name="edit_description_tasks">Edit Your Description</string>
+    <string name="edit_submit">Submit</string>
+    <string name="skip">Skip</string>
+    <string name="next">Next</string>
+    <string name="add_tasks">Add Your Tasks</string>
+    <string name="reminder_me">Remind me</string>
+    <string name="add_description_tasks">Add Your Description</string>
+    <string name="choose_language">language</string>
+    <string name="home_myday">My Day</string>
+    <string name="home_myimportance">Importance</string>
+    <string name="home_myplan">My Plan</string>
+    <!--<string name="app_name">My Tasks</string>
+    <string name="app_name">My Tasks</string>
+    <string name="app_name">My Tasks</string>
+    <string name="app_name">My Tasks</string>
+    <string name="app_name">My Tasks</string>-->
+
+
+</resources>

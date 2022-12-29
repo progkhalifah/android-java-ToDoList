@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">مهامي</string>
+    <string name="first_page">سهولة في كتابة المهام الخاصة بك</string>
+    <string name="second_page">تذكير بالمهام الهامة</string>
+    <string name="third_page">إعطائك إشعارات لمهامك</string>
+    <string name="followme">تابعني على مواقع التواصل الاجتماعي</string>
+    <string name="feedback_us">هل بامكانك تقيمنا</string>
+    <string name="your_opinion_matters">رأيك يهمنا</string>
+    <string name="weworkshard">نحن نعمل بجد لخدمتك بشكل أفضل ونود أن نعرف أنك تقيم تطبيقنا؟</string>
+    <string name="mydaystasks">يومي</string>
+    <string name="myimportance">المهمة</string>
+    <string name="myplan">خطتي</string>
+    <string name="thisweidgetforquickly">مهامي</string>
+    <string name="hint_edit_tasks">تعديل مهامك</string>
+    <string name="edit_description_tasks">تعديل الوصف</string>
+    <string name="edit_submit">تاكيد</string>
+    <string name="skip">تخطي</string>
+    <string name="next">التالي</string>
+    <string name="add_tasks">اضف مهامك</string>
+    <string name="reminder_me">ذكرني</string>
+    <string name="add_description_tasks">اضف الوصف</string>
+    <string name="choose_language">اللغة</string>
+    <string name="home_myday">يومي</string>
+    <string name="home_myimportance">المهمة</string>
+    <string name="home_myplan">خطتي</string>
+</resources>

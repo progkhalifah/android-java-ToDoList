@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorbackground"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <EditText
+            android:id="@+id/edtxt_titlemyday_tasks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edittext_shape"
+            android:hint="@string/add_tasks"
+            android:maxLength="25"
+            android:padding="10dp"
+            android:textColor="@color/colorbackground"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_reminder_me"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/reminder_me"
+            android:padding="5dp"
+            android:layout_marginStart="5dp"
+            android:textColor="@android:color/white"
+            android:fontFamily="sans-serif-condensed-light"
+            android:background="@drawable/conrner_of_reminder_me"
+            />
+
+        <TextView
+            android:id="@+id/txt_reminder_me_unactivited"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/reminder_me"
+            android:padding="5dp"
+            android:layout_marginStart="5dp"
+            android:textColor="@android:color/white"
+            android:fontFamily="sans-serif-condensed-light"
+            android:background="@drawable/conrner_of_reminder_me_unactivited"
+            android:visibility="gone"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/edtxt_descriptionmyday_tasks"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:background="@drawable/edittext_shape"
+            android:hint="@string/add_description_tasks"
+            android:maxLength="50"
+            android:inputType="text|textMultiLine"
+            android:padding="10dp"
+            android:textColor="@color/colorbackground"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_to_reminder"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:background="@drawable/ic_calendar_today" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_submitmyday_tasks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colortoolbar"
+        android:text="@string/edit_submit"
+        android:textColor="@color/colorbackground"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_submitmyday_tasks_forReminder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colortoolbar"
+        android:text="@string/edit_submit"
+        android:textColor="@color/colorbackground"
+        android:textSize="20sp"
+        android:visibility="gone"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

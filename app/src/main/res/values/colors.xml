@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#E0C097</color>
+    <color name="colorPrimaryDark">#5C3D2E</color>
+    <color name="colorAccent">#03DAC5</color>
+
+
+    <color name="colortoolbar">#E0C097</color>
+    <color name="colorforany">#B85C38</color>
+    <color name="colortextdescription">#80685D</color>
+    <color name="colortitle">#5C3D2E</color>
+    <color name="colorbackground">#2D2424</color>
+    <color name="colorcardview">#BB9C84</color>
+    <color name="colorLightGrey">#707070</color>
+    <color name="deletetask">#F44336</color>
+
+
+</resources>
